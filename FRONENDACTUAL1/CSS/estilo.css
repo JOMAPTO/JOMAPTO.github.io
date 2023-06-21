@@ -1,0 +1,360 @@
+body{
+    background: url(/IMG/INDEX\ FONDO\ OK.png);
+}
+.encabezado{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(233, 156, 55);
+}
+.encabezado img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.buttoninicio{
+    position: relative;
+    left: 85%;
+    top: -74%;
+    background: black;
+    width: 150px;
+}
+.buscador {
+    transform: translate(-100px,-70px);
+}
+.lupa img{
+    height: 20px;
+    width: 20px;
+    transform: translate(+1057px,-240px);
+    background-color: aliceblue;
+}
+ul{
+    justify-content: space-evenly;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 0px 0px 0px 0px;
+    width: 500px;
+    transform: translate(760px, -60px);
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue; 
+    list-style: none;
+}
+p{
+    height: 30%;
+    width: 40%;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 5px;
+    transform: translate(600px, 150px);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.pie_de_pagina{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 156, 55);
+    transform: translate(0px, 200px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pie_de_pagina img{
+    height: 30px;
+    width: 30px; 
+    background-color: aliceblue;
+    position: relative;
+    left: 90%;
+    top: -10px;
+}
+h4{
+    text-align: center;
+    transform: translate(0,20px);
+    font-size: 14px;
+	font-weight: 300;
+	line-height: 15px;
+}
+/* esta la pagina de servicios */
+.fondoservicio{
+    background: url(/IMG/servicios.jpg);
+}
+h1{
+    text-align: center;
+    margin: 120px;
+    background-color: rgb(58, 56, 56);
+    color: #fff;
+    width: 400px;
+    position: relative;
+    left: 26%;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    transform: translate(560px, 100px);
+}
+.parrafoservicios{
+    width: 400px;
+    height: 170px;
+    transform: translate(450px, -100px);
+}
+.botonvolvers{
+    background: #000;
+    color: #fff;
+    position: relative;
+    left: 47%;
+    top: -70px;
+}
+/* esta la pagina de iniciar */
+
+.fondoinicio{
+    background: url(/IMG/iniciar.jpg);
+    margin: 35px;
+}
+.text{
+    margin: -100px;
+    color: #000; 
+    position: relative;
+    top: -70px;
+    right: -210px;
+}
+.text1{
+    margin: -100px;
+    color: #000; 
+    position: relative;
+    top: -100px;
+    right: -110px;
+}
+.caja{
+    width: 33%;
+    height: 100px;
+    transform: translate(10px);
+}
+.titulologin{
+    position: relative;
+    left: -20%;
+    top: -60px;
+    width: 80%;
+}
+input{
+    text-align: center;
+    position: relative;
+    left: 75%;
+    top: -130px;
+}
+.buttoniniciar{
+    background-color: blue;
+    color: #fff;
+    position: relative;
+    top: -20px;
+    left: 220px;
+}
+.cuadrologin{
+    border: solid 1px #000;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(232, 236, 240);
+    opacity: 0.8;
+}
+/* esta es la pagina de beneficios */
+.fondobeneficios{
+    background-image: url(../WEB/IMG/beneficios4.jpg);  
+} 
+.containerbeneficios img{
+    width: 200px;
+    height: 200px;
+    transform: translate(600px, 100px);
+}
+ol{
+   color: #0a0a0a;
+   position: relative;
+   left: 22%;
+   top: -40px;
+   font-size: 19px;
+}
+.imagenbeneficios2{
+    right: 150px;
+    position: relative;
+    top: -370px;
+}
+.botonvolverb{
+    background: #000;
+    position: relative;
+    left: 47%;
+    top: 1%;
+}
+/* esta es la pagina de formulario */
+.fondoformulario{
+    background: rgb(241, 241, 236);
+}
+article img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;  
+}
+.form-control{
+    width: 98%;
+    margin: 7px;
+    position: relative;
+    left: 10px;
+    top: 1px;
+}
+.form-control1{
+    width: 98%;
+    height: 90px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: 1px;
+}
+.cedula{
+    left: 21%;
+    top: 60px;
+}
+.firmas{
+    left: 10%;
+    top: 30%;
+}
+
+.r1{
+    position: relative;
+    top: 1px;
+}
+main{
+    border: 1px solid #302dd1;
+}
+label{
+    margin: 20px;
+    position: relative;
+    top: 10px;
+}
+.asunto{
+    transform: translate(-69%,120px);
+}
+.fecha{
+    transform: translate(-69%,120px);
+}
+.ancho1{
+    transform: translate(-1020px,135px);
+}
+.ancho{
+    transform: translate(-1020px,135px);
+}
+.titulo2{
+    border: 1px solid black;
+    text-align: center;
+    width: 98%;
+    position: relative;
+    right: -17px;
+    top: 6px;
+}
+.cescribetusobservaciones{
+    transform: translate(-36%,70px);
+    width: 95%;
+    height: 90px;
+}
+.botonguardar{
+    background: #050536;
+    color: #fff;
+    transform: translate(-100%,250px);
+    width: 100px; 
+}
+.botoneditar{
+    background: #050536;
+    color: #fff;
+    transform: translate(1%,250px);
+    width: 100px; 
+}
+.botoncrearreporte{
+    background: #050536;
+    color: #fff;
+    transform: translate(-100%,250px);
+    width: 100px; 
+}
+.botonbuscarformulario {
+    background: #050536;
+    color: #fff;
+    transform: translate(200px,150px);
+    width: 100px; 
+}
+
+/* esta es la pagina de contacto */
+.fondocontacto{
+    background: #0c0c0c;
+}
+.botonvolverc{
+    position: relative;
+    left: -40px;
+    top: 50px;
+}
+.containercontato{
+    text-align: center;
+    position: relative;
+    left: 1px;
+    top: -80px;
+}
+.strong1{
+    color: #fff;
+    position: relative;
+    right: -460px;
+    text-align: center;
+    display: flex;
+    justify-content: baseline;
+}
+.nombre{
+    transform: translate(-300%,120px);
+}
+.Email{
+    transform: translate(-300%,120px);
+}
+.Telefono{
+    transform: translate(-300%,120px);
+}
+.enviarc{
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+.botonvolverc{
+background: #000;
+left: -600px;
+top: -600px;
+}
+/* esta es la pagina de reportes*/
+.fondoreportes{
+    background: #fff;
+}
+.obranueva{
+    position: relative;
+    left: 85%;
+    top: -220px;
+}
+/* esta es la pagina de registro */
+.regiter{
+    border: solid 1px #000;
+    background: rgb(255, 153, 0);
+}
+.titulo_registro{
+    position: relative;
+    left: 24%;
+}
+.registro{
+    width: 500px;
+    display: flex;
+    position: relative;
+    left: 29%;
+}
+.registrame{
+    transform: translate(600px,-80px);
+}
+.campo1{
+    left: 13%;
+    top: -85px;
+}
+.registrado{
+background: #000;
+color: #fff;
+}
